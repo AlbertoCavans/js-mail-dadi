@@ -17,8 +17,8 @@ In una pagina parallela costruire un giochino dove c'è un input in cui mettere 
 - Collegare su JS gli elementi di html che serviranno durante l'esercizio, tramite il loro ID
 - Costruire l'array con una lista di mail che possono accedere al gioco
 - Costruire un ciclo for che controlli che la mail inserita da eventuali utenti della pagina sia una mail dentro l'array
-  - SE la mail non è dentro l'array il programma dovrà stampare sulla pagina "Accesso negato"
-  - ALTRIMENTI SE la mail è dentro l'array il programma dovrà mostrare il resto della pagina, dove c'è il gioco dei dadi
+  - SE la mail è dentro l'array il programma dovrà stampare sulla pagina "Accesso negato"
+  - ALTRIMENTI SE la mail è dentro l'array il programma dovrà stampare sulla pagina "Benvenuto!"
 
 ### PARTE DADI
 

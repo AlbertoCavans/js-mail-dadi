@@ -27,6 +27,6 @@ submitData.addEventListener("click", function () {
     accessByEmail.innertext = "Verifica Email: accesso approvato.";
   } */ /* non funziona */
   accessByEmail.innerText = verifiedMail
-    ? "Verifica email: Accesso negato"
-    : "Verifica email: Accesso permesso";
+    ? "Verifica email: Accesso permesso"
+    : "Verifica email: Accesso negato";
 });

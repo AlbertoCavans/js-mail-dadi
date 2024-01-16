@@ -23,11 +23,10 @@ In una pagina parallela costruire un giochino dove c'è un input in cui mettere 
 ### PARTE DADI
 
 - Collegare su JS gli elementi di html che serviranno durante l'esercizio, tramite il loro ID
-- Collegare la casella dove il giocatore inserisce il numero
-- Collegare il button di submit
-- Costruire la parte di codice dove il computer genera un numero random da 1 a 6 e collegarla al bottone
+- Costruire la parte di codice dove il computer genera i due numeri random da 1 a 6
+- Collegare il button di submit per far partire il gioco
 - Costruire un ciclo for dove
-  - SE il numero generato dal compure è maggiore di quello inserito dall'utente viene mostrata la seguente scritta sul computer: "Hai perso",
-  - ALTRIMENTI SE il numero generato dal compure è minore di quello inserito dall'utente viene mostrata la seguente scritta sul computer: "Hai vinto",
-  - ALTRIMENTI SE il numero generato dal compure è uguale a quello inserito dall'utente viene mostrata la seguente scritta sul computer: "Hai pareggiato"
+  - SE il numero generato dal computer per sè stesso è maggiore di quello assegnato all'utente vengono mostrati i due numeri e la seguente scritta sul computer: "Hai perso",
+  - ALTRIMENTI SE il numero generato dal computer per sè stesso è minore di quello assegnato all'utente vengono mostrati i due numeri e la seguente scritta sul computer: "Hai vinto",
+  - ALTRIMENTI SE il numero generato dal computer per sè stesso è uguale a quello assegnato all'utente vengono mostrati i due numeri e la seguente scritta sul computer: "Hai pareggiato",
 - Costruire la parte di codice che fornisce il numero del giocatore, il numero del computer e il risultato della sfida

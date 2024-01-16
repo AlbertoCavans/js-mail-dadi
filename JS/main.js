@@ -8,6 +8,7 @@ const arrayMails = [
 ];
 const submitData = document.getElementById("submitData");
 const accessByEmail = document.getElementById("accessByEmail");
+const linkToDiceGAme = document.getElementById("linkToDiceGAme");
 
 /* ACTIONS */
 submitData.addEventListener("click", function () {
@@ -21,12 +22,11 @@ submitData.addEventListener("click", function () {
   }
   console.log(verifiedMail);
 
-  /*  if ((verifiedMail = false)) {
-    accessByEmail.innertext = "Verifica Email: accesso negato.";
-  } else if ((verifiedMail = true)) {
-    accessByEmail.innertext = "Verifica Email: accesso approvato.";
-  } */ /* non funziona */
-  accessByEmail.innerText = verifiedMail
-    ? "Verifica email: Accesso permesso"
-    : "Verifica email: Accesso negato";
+  if (verifiedMail == false) {
+    accessByEmail.innerText = "Verifica Email: accesso negato.";
+  } else {
+    accessByEmail.innerText = "Verifica Email: accesso approvato.";
+
+    linkToDiceGAme.innerText = "Gioca a dadi contro il computer";
+  }
 });
